@@ -96,20 +96,20 @@ explicit = true
 
 [project.optional-dependencies]
 cpu = [
-    "torch==2.9.1",
+    "torch>=2.9.0",
 ]
 gpu = [
-    "torch==2.9.1",
+    "torch>=2.9.0",
 ]
 gfx120x = [
-    "torch>=2.9.1",
+    "torch>=2.9.0",
     "rocm",
     "pytorch-triton-rocm",
     "rocm-sdk-core",
     "rocm-sdk-libraries-gfx120x-all",
 ]
 gfx1151 = [
-    "torch>=2.9.1",
+    "torch>=2.9.0",
     "rocm",
     "pytorch-triton-rocm",
     "rocm-sdk-core",
