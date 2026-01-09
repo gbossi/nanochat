@@ -17,6 +17,7 @@ dependencies = [
     "wandb>=0.21.3",
     "zstandard>=0.25.0",
     "bitsandbytes>=0.48.0",
+    "wandb>=0.21.3",
 ]
 
 [dependency-groups]
